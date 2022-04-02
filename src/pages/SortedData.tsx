@@ -52,9 +52,10 @@ function SortedData() {
 
   return (
     <>
-      <div className="container m-0 p-0 text-center">
-        <div className="row m-5 m-0">
-          <div className="col-sm-auto w-25 mx-4">
+      <div className="container m-0 p-0">
+        <h1 className="m-5 px-4 fw-bold">Cats Sorted in Gender of Owner</h1>
+        <div className="row m-5 m-0 text-center">
+          <div className="col-sm-auto w-25 px-0 m-4">
             <ul className="list-group">
               <li className="list-group-item fw-bold bg-dark text-white">{MALE_GENDER}</li>
               {maleOwnerCats.map((pet: PetData) => {
@@ -64,7 +65,7 @@ function SortedData() {
               })}
             </ul>
           </div>
-          <div className="col-sm-auto w-25 mx-4">
+          <div className="col-sm-auto w-25 mx-4 px-0 m-4">
             <ul className="list-group">
               <li className="list-group-item fw-bold bg-dark text-white">{FEMALE_GENDER}</li>
               {femaleOwnerCats.map((pet: PetData) => {
