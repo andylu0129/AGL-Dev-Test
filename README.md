@@ -1,6 +1,6 @@
 # Instruction
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is created with React and styled using Bootstrap.
 
 ## Available Scripts
 
